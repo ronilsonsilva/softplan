@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Softplan.Calculadora.Domain\Softplan.Calculadora.Domain.csproj" />
+    <ProjectReference Include="..\Softplan.Calculadora.Integration.Factory\Softplan.Calculadora.Integration.Factory.csproj" />
+  </ItemGroup>
+
+</Project>
