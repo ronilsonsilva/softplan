@@ -53,9 +53,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Softplan.Calculadora.Integr
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{1BB79F1F-B134-421E-836F-971A9516BBF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Softplan.Calculadora.Application", "Calculadora\Softplan.Calculadora.Application\Softplan.Calculadora.Application.csproj", "{0B943EBE-08F8-4BB8-9CCA-9B46069FAA4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Softplan.Calculadora.Application", "Calculadora\Softplan.Calculadora.Application\Softplan.Calculadora.Application.csproj", "{0B943EBE-08F8-4BB8-9CCA-9B46069FAA4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Softplan.Taxa.Application", "Taxa\Softplan.Taxa.Application\Softplan.Taxa.Application.csproj", "{5788E1A8-37AA-43EA-A9B6-C5C2A50A9745}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Softplan.Taxa.Application", "Taxa\Softplan.Taxa.Application\Softplan.Taxa.Application.csproj", "{79C69B10-F8E3-422D-BB3A-A7101CE3983D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -103,10 +103,10 @@ Global
 		{0B943EBE-08F8-4BB8-9CCA-9B46069FAA4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B943EBE-08F8-4BB8-9CCA-9B46069FAA4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B943EBE-08F8-4BB8-9CCA-9B46069FAA4A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5788E1A8-37AA-43EA-A9B6-C5C2A50A9745}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5788E1A8-37AA-43EA-A9B6-C5C2A50A9745}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5788E1A8-37AA-43EA-A9B6-C5C2A50A9745}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5788E1A8-37AA-43EA-A9B6-C5C2A50A9745}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79C69B10-F8E3-422D-BB3A-A7101CE3983D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79C69B10-F8E3-422D-BB3A-A7101CE3983D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79C69B10-F8E3-422D-BB3A-A7101CE3983D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79C69B10-F8E3-422D-BB3A-A7101CE3983D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -136,7 +136,7 @@ Global
 		{3E492F10-FF76-4458-863C-2A45851F3A87} = {E9D6208D-6301-405C-82DC-551EC7BFEC80}
 		{1BB79F1F-B134-421E-836F-971A9516BBF9} = {40A1006B-BBCF-49E8-91AD-F77A0766F952}
 		{0B943EBE-08F8-4BB8-9CCA-9B46069FAA4A} = {1BB79F1F-B134-421E-836F-971A9516BBF9}
-		{5788E1A8-37AA-43EA-A9B6-C5C2A50A9745} = {0CC43684-FAAD-4B6E-BF98-919FD612DDEB}
+		{79C69B10-F8E3-422D-BB3A-A7101CE3983D} = {0CC43684-FAAD-4B6E-BF98-919FD612DDEB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7A9ABBC7-8CC6-43E9-A384-4072E2A2EFF0}
