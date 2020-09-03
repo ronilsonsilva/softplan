@@ -5,12 +5,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Softplan.Calculadora.Application\Softplan.Calculadora.Application.csproj" />
-    <ProjectReference Include="..\Softplan.Calculadora.Infra.CrossCutting.Ioc\Softplan.Calculadora.Infra.CrossCutting.Ioc.csproj" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.7" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.5.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="5.5.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="5.5.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUi" Version="5.5.1" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\Softplan.Calculadora.Application\Softplan.Calculadora.Application.csproj" />
+    <ProjectReference Include="..\Softplan.Calculadora.Infra.CrossCutting.Ioc\Softplan.Calculadora.Infra.CrossCutting.Ioc.csproj" />
   </ItemGroup>
 
 

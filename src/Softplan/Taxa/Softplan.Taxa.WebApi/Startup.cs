@@ -28,7 +28,6 @@ namespace Softplan.Taxa.WebApi
                     .AllowAnyHeader());
             });
 
-
             services.AddControllers()
                    .AddNewtonsoftJson(options =>
                                         options.SerializerSettings.PreserveReferencesHandling = PreserveReferencesHandling.Objects

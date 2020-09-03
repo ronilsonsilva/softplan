@@ -19,7 +19,7 @@ namespace Softplan.Taxa.WebApi.Controllers
         [HttpGet]
         public async Task<IActionResult> ObterTaxa()
         {
-            return Ok(Decimal.Parse("0,1"));
+            return Ok(await this._taxaJurosApplication.Obter());
         }
     }
 }
