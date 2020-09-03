@@ -8,9 +8,9 @@ namespace Softplan.Calculadora.Integration.Config
     {
         private readonly RestClient _client;
 
-        public ClientApiTaxa()
+        public ClientApiTaxa(string urlApi)
         {
-            this._client = new RestClient("https://localhost:44364/api/");
+            this._client = new RestClient(urlApi);
         }
 
         public async Task<Object> GetRequest(string uri, Parameter[] parameters = null)
