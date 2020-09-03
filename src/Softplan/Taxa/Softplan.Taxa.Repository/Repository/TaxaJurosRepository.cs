@@ -1,5 +1,4 @@
 ﻿using Softplan.Taxa.Domain.Contracts.Repository;
-using System;
 using System.Threading.Tasks;
 
 namespace Softplan.Taxa.Infra.Data.Repository.Repository
@@ -8,7 +7,7 @@ namespace Softplan.Taxa.Infra.Data.Repository.Repository
     {
         public async Task<decimal> Obter()
         {
-            return Decimal.Parse("0,1");
+            return (decimal)0.01;
         }
     }
 }
